@@ -1,46 +1,5 @@
 <?php
 
-// Class representing a complex object - House
-class House {
-    private $walls;
-    private $doors;
-    private $windows;
-    private $roof;
-    private $garage;
-
-    // Methods for setting house properties
-    public function setWalls($walls) {
-        $this->walls = $walls;
-    }
-
-    public function setDoors($doors) {
-        $this->doors = $doors;
-    }
-
-    public function setWindows($windows) {
-        $this->windows = $windows;
-    }
-
-    public function setRoof($roof) {
-        $this->roof = $roof;
-    }
-
-    public function setGarage($garage) {
-        $this->garage = $garage;
-    }
-
-    // Method to display house details
-    public function showHouseDetails() {
-        echo "House with {$this->walls} walls, {$this->doors} doors, {$this->windows} windows, a {$this->roof} roof";
-        if ($this->garage) {
-            echo ", and a garage.";
-        } else {
-            echo ".";
-        }
-        echo "\n";
-    }
-}
-
 // Abstract builder - defines steps for building a house
 abstract class HouseBuilder {
     protected $house;
