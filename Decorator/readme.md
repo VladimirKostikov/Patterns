@@ -1,0 +1,5 @@
+The Decorator Pattern allows you to dynamically add responsibilities to objects without altering their structure. It provides a flexible alternative to subclassing for extending functionality by wrapping objects with new behavior. This pattern helps to adhere to the Open/Closed Principle, where classes are open for extension but closed for modification.
+
+Das Dekorator-Muster ermöglicht es Ihnen, dynamisch Verantwortlichkeiten zu Objekten hinzuzufügen, ohne deren Struktur zu ändern. Es bietet eine flexible Alternative zur Vererbung, um die Funktionalität zu erweitern, indem Objekte mit neuem Verhalten umhüllt werden. Dieses Muster hilft, dem Open/Closed-Prinzip zu entsprechen, bei dem Klassen offen für Erweiterungen, aber geschlossen für Modifikationen sind.
+
+Паттерн Декоратор позволяет динамически добавлять объектам новые обязанности, не изменяя их структуру. Он предоставляет гибкую альтернативу наследованию для расширения функциональности, оборачивая объекты в новый функционал. Этот паттерн помогает следовать принципу открытости/закрытости, при котором классы открыты для расширений, но закрыты для изменений.
