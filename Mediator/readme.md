@@ -1,0 +1,6 @@
+The Mediator pattern defines an object that encapsulates how a set of objects interact. By promoting loose coupling, it helps in keeping objects from being dependent on each other, thereby promoting a cleaner, more maintainable system. In the provided example, ConcreteMediator manages the interactions between Colleague1 and Colleague2, facilitating communication without them having to directly reference each other.
+
+Das Mediator-Pattern definiert ein Objekt, das kapselt, wie eine Gruppe von Objekten miteinander interagiert. Durch die Förderung loser Kopplung hilft es, die Abhängigkeit zwischen Objekten zu verringern, was zu einem saubereren und wartbareren System führt. Im bereitgestellten Beispiel verwaltet ConcreteMediator die Interaktionen zwischen Colleague1 und Colleague2 und ermöglicht die Kommunikation, ohne dass diese sich direkt aufeinander beziehen müssen.
+
+Паттерн "Посредник" определяет объект, который инкапсулирует взаимодействие группы объектов. Способствуя слабой связности, он помогает избежать прямых зависимостей между объектами, что делает систему более чистой и поддерживаемой. В приведенном примере ConcreteMediator управляет взаимодействием между Colleague1 и Colleague2, облегчая коммуникацию без необходимости прямого обращения друг к другу.
+
